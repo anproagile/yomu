@@ -1,11 +1,13 @@
 <template>
   <div
     class="card-tile"
-    @click="onClick">
+    @click="onClick"
+  >
     <div
       v-lazy:background-image="image"
       :key="image"
-      class="card-image">
+      class="card-image"
+    >
       <h2 class="card-title">{{ title }}</h2>
     </div>
   </div>
@@ -16,22 +18,10 @@ import { mapState, mapActions } from "vuex"
 export default {
   components: {},
   props: {
-    column: {
-      type: Number,
-      default: 0
-    },
-    row: {
-      type: Number,
-      default: 0
-    },
-    title: {
-      type: String,
-      default: ""
-    },
-    image: {
-      type: String,
-      default: "load.jpg"
-    }
+    column: { type: Number, default: 0 },
+    row: { type: Number, default: 0 },
+    title: { type: String, default: "" },
+    image: { type: String, default: "load.jpg" }
   },
   data() {
     return {}
@@ -43,10 +33,7 @@ export default {
     ...mapActions(["setSelected"]),
 
     onClick() {
-      this.setSelected({
-        row: this.row,
-        column: this.column
-      })
+      this.setSelected({ row: this.row, column: this.column })
       this.$router.push("detail")
     }
   }
