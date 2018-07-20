@@ -30,7 +30,7 @@
  "devDependencies": {
   "@nuxtjs/axios": "5.3.1",
   "@nuxtjs/pwa": "2.0.8",
-  "@nuxtjs/sentry": "1.0.3",
+  "@nuxtjs/sentry": "1.1.1",
   "@storybook/addon-knobs": "3.4.8",
   "@storybook/addon-viewport": "3.4.8",
   "@storybook/vue": "3.4.8",
@@ -43,12 +43,12 @@
   "eslint-config-prettier": "2.9.0",
   "eslint-friendly-formatter": "4.0.1",
   "eslint-loader": "2.0.0",
-  "eslint-plugin-prettier": "2.6.0",
+  "eslint-plugin-prettier": "2.6.2",
   "eslint-plugin-vue": "4.6.0",
   "istanbul": "0.4.5",
   "require-extension-hooks": "0.3.2",
   "require-extension-hooks-babel": "0.1.1",
-  "require-extension-hooks-vue": "1.0.0",
+  "require-extension-hooks-vue": "1.0.1",
   "tap-nyan": "1.1.0",
   "vue-lazyload": "1.2.6"
  }
