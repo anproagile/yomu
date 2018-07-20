@@ -430,11 +430,10 @@
     "@nuxtjs/meta" "^2.2.1"
     "@nuxtjs/workbox" "^2.2.0"
 
-"@nuxtjs/sentry@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sentry/-/sentry-1.1.1.tgz#8050b8e9f90b7907080024ce34ed9927ab269c27"
+"@nuxtjs/sentry@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sentry/-/sentry-1.0.3.tgz#e7de4231fd90815cb7bba9dda297f6edf56c067c"
   dependencies:
-    consola "^1.4.1"
     raven "^2.3.0"
     raven-js "^3.21.0"
 
@@ -2799,15 +2798,6 @@ consola@^1.1.4:
     lodash "^4.17.5"
     std-env "^1.1.0"
 
-consola@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-1.4.1.tgz#4b1c6259c8db23f51e7cfb68cd383ec5ee298f0e"
-  dependencies:
-    chalk "^2.3.2"
-    figures "^2.0.0"
-    lodash "^4.17.5"
-    std-env "^1.1.0"
-
 console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
@@ -3694,9 +3684,9 @@ eslint-friendly-formatter@4.0.1:
     strip-ansi "^4.0.0"
     text-table "^0.2.0"
 
-eslint-loader@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-2.0.0.tgz#d136619b5c684e36531ffc28c60a56e404608f5d"
+eslint-loader@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-2.1.0.tgz#61334c548aeb0b8e20ec3a552fb7a88c47261c6a"
   dependencies:
     loader-fs-cache "^1.0.0"
     loader-utils "^1.0.2"
