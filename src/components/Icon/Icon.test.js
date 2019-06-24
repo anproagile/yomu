@@ -1,7 +1,5 @@
 import { shallowMount } from "@vue/test-utils"
-import Icon from "../../src/components/Icon.vue"
-
-import "../../src/helpers/vue-fontawesome"
+import Icon from "./Icon.vue"
 
 const icon = "search"
 const wrapper = shallowMount(Icon, {
@@ -11,7 +9,7 @@ const wrapper = shallowMount(Icon, {
 test("Icon Spapshot", () => {
   expect(wrapper).toMatchInlineSnapshot(`
 <div class="icon">
-  <font-awesome-icon-stub icon="search"></font-awesome-icon-stub>
+  <font-awesome-icon icon="search" style="color: rgb(233, 30, 99);"></font-awesome-icon>
 </div>
 `)
 })

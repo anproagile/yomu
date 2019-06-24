@@ -1,18 +1,13 @@
 import { storiesOf } from "@storybook/vue"
 import { withKnobs, text } from "@storybook/addon-knobs"
-
-import Button from "../components/Button.tsx"
+import Button from "./Button.vue"
 
 storiesOf("atoms", module)
   .addDecorator(withKnobs)
   .add("Button", () => {
+    const label = text("label", "label")
     return {
       components: { Button },
-      template: `<Button :label="label" />`,
-      props: {
-        label: {
-          default: text("label", "label")
-        }
-      }
+      template: `<Button label="${label}" />`
     }
   })
